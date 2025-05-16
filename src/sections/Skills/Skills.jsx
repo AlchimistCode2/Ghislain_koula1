@@ -28,7 +28,6 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill="MS Office(Project,Word, Excel,PowerBI...)"/>
             <SkillList src={checkMarkIcon} skill="Kobocollect/Kobotoolbox"/>
             <SkillList src={checkMarkIcon} skill="Design UI/X"/>
-            <SkillList src={checkMarkIcon} skill="React"/>
         </div>
         
     </section>

@@ -19,7 +19,7 @@ function Projects() {
 
           <ProjectCard 
             src={freshBurger} 
-            link="https://github.com/AlchimistCode2/Ghislain_koula1"
+            link="https://www.figma.com/proto/qWYQwVMGgGL1nQ18ywUN4Q/Based-gender-violence-Web-site?node-id=3-25&p=f&t=VEyxAJLaM6pVVklf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
             h3="Web design UI/X"
             p="Ending gender violence based"
           />  

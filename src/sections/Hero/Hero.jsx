@@ -39,7 +39,7 @@ function Hero() {
           </h1>
           <h2>
               Full stuck Developer,
-              Web UI/X Designer,
+              Web UI/UX Designer,
               Graphic Designer
           </h2>
           <span>
