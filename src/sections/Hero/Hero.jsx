@@ -8,7 +8,10 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/CVgh.pdf';
+import CV from '<div className="" />
+<div className="" />
+<assets />
+<cv></cv>.pdf';
 import {useTheme} from '../../common/ThemeContext';
 function Hero() {
   const {theme, toggleTheme} = useTheme();
