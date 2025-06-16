@@ -1,48 +1,53 @@
-/* Conteneur général de la section Projects */
+/* Section principale */
 .container {
   padding: 4rem 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #0f0f0f;
+  color: white;
   text-align: center;
-  background-color: #0f0f0f; /* couleur de fond sombre, modifiable selon ton thème */
-  color: #ffffff;
 }
 
-/* Titre de la section */
+/* Titre de section */
 .sectionTitle {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   font-weight: bold;
 }
 
-/* Grille responsive des projets */
+/* Grille des projets responsive */
 .projectsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   width: 100%;
   max-width: 1200px;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
-/* Carte projet - gérée depuis ProjectCard probablement */
-.container img {
+/* Image de chaque projet */
+.projectsContainer img {
   width: 100%;
-  max-width: 250px;
+  height: auto;
   border-radius: 15px;
-  background-color: var(--project-card-bg, #fff);
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Liens des cartes projets */
-.container a {
-  text-decoration: none;
+.projectsContainer img:hover {
+  transform: scale(1.03);
+}
+
+/* Liens cliquables autour des projets */
+.projectsContainer a {
   color: inherit;
-  transition: transform 200ms ease-in-out;
+  text-decoration: none;
 }
 
-.container a:hover {
-  transform: scale(1.05);
+/* Adaptation responsive */
+@media (max-width: 600px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
 }
