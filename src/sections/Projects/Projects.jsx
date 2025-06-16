@@ -2,6 +2,7 @@ import styles from './ProjectStyles.module.css';
 import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import logoRealisation1 from '../../assets/logo-realisation1.png';
+import Banquier from '../../assets/Banquier.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -29,6 +30,12 @@ function Projects() {
             link="https://www.figma.com/proto/qWYQwVMGgGL1nQ18ywUN4Q/Based-gender-violence-Web-site?node-id=3-25&p=f&t=VEyxAJLaM6pVVklf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
             h3="Municipality's logo proposal"
             p="Dynamique design for N'djamena city Municipality"
+          />  
+          <ProjectCard 
+            src={Banquier} 
+            link="https://www.figma.com/proto/qWYQwVMGgGL1nQ18ywUN4Q/Based-gender-violence-Web-site?node-id=3-25&p=f&t=VEyxAJLaM6pVVklf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+            h3="Logo competition"
+            p="The logo competition was launched by Réussir Begou"
           />  
 
          <ProjectCard 
