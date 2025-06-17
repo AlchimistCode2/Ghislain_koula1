@@ -4,6 +4,9 @@
   background-color: #0f0f0f;
   color: white;
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* Titre de section */
@@ -45,9 +48,24 @@
   text-decoration: none;
 }
 
-/* Adaptation responsive */
+/* Cartes ou contenus individuels */
+.projectCard {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Adaptation responsive mobile */
 @media (max-width: 600px) {
+  .projectsContainer {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
   .sectionTitle {
     font-size: 2rem;
+  }
+
+  .projectsContainer img {
+    border-radius: 10px;
   }
 }
