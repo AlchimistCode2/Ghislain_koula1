@@ -20,7 +20,7 @@ function Projects() {
 
         <ProjectCard 
           src={freshBurger} 
-          link="https://www.figma.com/proto/lECOkYZN2qxebikQpiswrk/Assignment--Advanced-Design?node-id=7-5&p=f&t=2GtMt1NwTECfgetc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A5"
+          link="https://www.figma.com/proto/lECOkYZN2qxebikQpiswrk/Assignment--Advanced-Design?node-id=7-5&p=f&t=Kaigpb8Tsii4CQtf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A5"
           h3="Web design UI/UX"
           p="Smart class attendance system"
         />  
