@@ -20,9 +20,9 @@ function Projects() {
 
         <ProjectCard 
           src={freshBurger} 
-          link="https://www.figma.com/proto/qWYQwVMGgGL1nQ18ywUN4Q/Based-gender-violence-Web-site?node-id=3-25&p=f&t=VEyxAJLaM6pVVklf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+          link="https://www.figma.com/proto/lECOkYZN2qxebikQpiswrk/Assignment--Advanced-Design?node-id=7-5&p=f&t=2GtMt1NwTECfgetc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A5"
           h3="Web design UI/UX"
-          p="Ending gender violence based"
+          p="Smart class attendance system"
         />  
         <ProjectCard 
           src={Banquier} 
