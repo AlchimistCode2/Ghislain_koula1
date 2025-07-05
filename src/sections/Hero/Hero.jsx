@@ -38,7 +38,7 @@ function Hero() {
               Ghislain
           </h1>
           <h2>
-              Full-stack Developer,
+              Junior Developer,
               Web UI/UX Designer,
               Graphic Designer
           </h2>
